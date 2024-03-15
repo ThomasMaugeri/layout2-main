@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+///**MIXIN**///
+@mixin dfc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin dfa {
+    display: flex;
+    align-items: center;
+}
+
+@mixin dfj {
+    display: flex;
+    justify-content: center;
+}
+
+///**display-width-responsive**///
+$bp1: 1200px;
+$bp2: 720px;
+$bp3: 520px;
+
+
+$c-nav: #837E7E;
+$c-header: #585353;
+$c-paragrafo: #837E7E;
