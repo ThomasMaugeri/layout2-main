@@ -1,7 +1,8 @@
 * {
     box-sizing: border-box;
     margin: 0;
-}
+    font-family: "Inter", sans-serif;
+    }
 
 a {
     text-decoration: none;
@@ -34,3 +35,5 @@ $bp3: 520px;
 $c-nav: #837E7E;
 $c-header: #585353;
 $c-paragrafo: #837E7E;
+
+$c-text: white;

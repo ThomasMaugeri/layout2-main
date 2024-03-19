@@ -37,7 +37,10 @@ export default {
 
 <template>
   <header>
-    ads
+    <div class="logo">
+
+    </div>
+    <h1>nome del posto</h1>
 
   </header>
 </template>
@@ -48,5 +51,18 @@ header{
   width: 100%;
   background-color: $c-header;
   height: 100%;
+  display: flex;
+  padding: 2rem;
+  gap:5%;
+  .logo{
+    background-color: black;
+    width:15%;
+    aspect-ratio:1 ;
+    
+  }
+  h1{
+    color: $c-text;
+    text-transform: uppercase;
+  }
 }
 </style>

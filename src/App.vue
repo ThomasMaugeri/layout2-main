@@ -33,22 +33,24 @@
 @use './assets/styles/general.scss' as *;
 
 .container{
-    width:100vw;
     height: 100vh;
     display: flex;
+    overflow: hidden;
+    width:100%;
     .left{
-      width: 80vw;
+      width:100%;
+      
       .header{
         height:20vh;
       }
       .page{
         background-color: red;
-        height: 80vh;
+        overflow: auto;
       }
     }
     .right{
-      width: 20vw;
-      height:100vh;
+      
+      height:100%;
       
     }
 }
