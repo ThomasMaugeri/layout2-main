@@ -44,8 +44,10 @@
         height:20vh;
       }
       .page{
-        background-color: red;
+        background-color:$c-paragrafo;
         overflow: auto;
+        height:100%;
+        
       }
     }
     .right{
